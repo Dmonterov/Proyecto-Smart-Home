@@ -2,7 +2,7 @@
 def registrar_usuario(email, password):
     with open("usuarios.txt", "a") as file:
         file.write(f"{email},{password}\n")
-
+rgkrnklergnk
 # Función para agregar una nueva habitación
 def agregar_habitacion(nombre_habitacion):
     with open("habitaciones.txt", "a") as file:
